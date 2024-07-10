@@ -1,0 +1,180 @@
+.header-section {
+    width: auto;
+    height: 600px;
+    margin: 0px auto;
+    font-family: "Azeret Mono", monospace;
+}
+
+
+
+.header-container {
+    align-items: center;
+    background-image: url("../assets/Hero-bg.png");
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.fast-text {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace;
+}
+
+.sub-tital {
+    width: 46%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.my-container {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.button {
+    background-color: black;
+    color: beige;
+    border-radius: 5px;
+    size: 50px;
+    padding: 10px;
+}
+
+.Inspiration {
+    align-items: center;
+    text-align: center;
+}
+
+.common-layout {
+    width: 80%;
+    margin: 100px auto;
+    font-family: "Azeret Mono", monospace;
+}
+
+.title-content {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.content-sub-title {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 48px;
+}
+
+.about-items {
+    display: flex;
+    gap: 20px;
+
+}
+
+.content {
+    text-align: center;
+}
+
+.video {
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.475);
+}
+
+.my-frame {
+    width: 90%;
+    height: 500px;
+    margin: 20px;
+}
+
+.currier-items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: "Azeret Mono", monospace;
+}
+
+.currier-info {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.color-hrml {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.color-css {
+
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.color-js {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.erro {
+    background-image: url("../assets/handshake.jpg");
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    justify-content: center;
+
+
+}
+
+.need-support {
+    display: flex;
+    flex-direction: column;
+    gap: 20;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 20px;
+    color: rgb(245, 244, 242);
+}
+
+
+input[type=text] {
+
+    width: 500px;
+    height: 50px;
+    margin: 0px 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+
+input[type="button"] {
+    width: 100px;
+    margin: 0px 16px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
