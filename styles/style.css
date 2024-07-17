@@ -83,11 +83,15 @@
     justify-content: space-around;
     gap: 30px;
     padding: 48px;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
 }
 
 .about-items {
     display: flex;
     gap: 20px;
+    background-color: rgb(243, 246, 251);
 
 }
 
@@ -141,6 +145,7 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     justify-content: center;
+    opacity: 300px;
 
 
 }
